@@ -1,0 +1,67 @@
+COMMENT: Main Testing
+START TIMER: Main
+  COMMENT: Instrumentation Testing
+  START TIMER: Instrumentation
+  STOP TIMER: Instrumentation 11400 ns 
+  COMMENT: 
+-------------------
+  COMMENT: Populate array Testing
+  START TIMER: Populate array
+  STOP TIMER: Populate array 841200 ns 
+  COMMENT: 
+-------------------
+  COMMENT: Bubble Sort Testing
+  START TIMER: bubbleSort
+  STOP TIMER: bubbleSort 1237500 ns 
+  COMMENT: 
+-------------------
+  COMMENT: Quick Sort Testing
+  START TIMER: quickSort
+  STOP TIMER: quickSort 155900 ns 
+  COMMENT: 
+-------------------
+  COMMENT: Merge Sort Testing
+  START TIMER: mergeSort
+  STOP TIMER: mergeSort 247300 ns 
+  COMMENT: 
+-------------------
+  COMMENT: Selection Sort Testing
+  COMMENT: Testing Selection Sort
+  START TIMER: selectionSort
+  STOP TIMER: selectionSort 416900 ns 
+  COMMENT: 
+-------------------
+  COMMENT: Bubble sort with instrumentation  Testing
+  START TIMER: bubbleSort with instrumentation main
+    START TIMER: Bubble sort in class
+    STOP TIMER: Bubble sort in class 517700 ns 
+  STOP TIMER: bubbleSort with instrumentation main 575400 ns 
+  COMMENT: 
+-------------------
+  COMMENT: Quick sort with instrumentation  Testing
+  START TIMER: Quick with instrumentation main
+    START TIMER: Quick sort in class
+    STOP TIMER: Quick sort in class 109800 ns 
+  STOP TIMER: Quick with instrumentation main 160200 ns 
+  COMMENT: 
+-------------------
+  COMMENT: Merge sort with instrumentation  Testing
+  START TIMER: Merge with instrumentation main
+    START TIMER: Merge sort in class
+    STOP TIMER: Merge sort in class 230500 ns 
+  STOP TIMER: Merge with instrumentation main 292600 ns 
+  COMMENT: 
+-------------------
+  COMMENT: Selection sort with instrumentation  Testing
+  START TIMER: Selection with instrumentation main
+    START TIMER: Selection sort in class
+    STOP TIMER: Selection sort in class 387900 ns 
+  STOP TIMER: Selection with instrumentation main 452800 ns 
+  COMMENT: 
+-------------------
+STOP TIMER: Main 23135100 ns 
+COMMENT: 
+-------------------
+TOTAL TIME: 3681700ns
+
+ 
